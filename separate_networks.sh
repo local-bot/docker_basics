@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# docker network2
+# docker networks
 docker network create mysql-network
 docker network create mysql-network2
 

@@ -29,3 +29,7 @@ docker run -d -p 8083:80 \
     --name phpmyadmin2 \
     --net mysql-network2 \
     phpmyadmin:5.1-apache
+
+# interactive mode
+docker exec -it phpmyadmin sh
+docker exec -it mysqldb mysql -uroot -ppassword
